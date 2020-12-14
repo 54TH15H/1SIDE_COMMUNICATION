@@ -1,7 +1,9 @@
 
+# A PROGRAM THAT CAN ACCEPT MESSAGES FROM THE SENDER
+
 import socket
 d = socket.socket()
-d.connect(('localhost',9999))
+d.connect(('localhost',  9999))
 flag = True
 
 while flag:
