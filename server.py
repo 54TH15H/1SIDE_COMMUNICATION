@@ -1,4 +1,6 @@
 
+# SERVER , ACTS AS AN INTERFACE BETWEEN TWO USERS
+
 import socket
 s = socket.socket()
 print(' SOCKET CREATED ')
@@ -13,7 +15,6 @@ while flag:
     d, add2 = s.accept()
     print(' CONNECTED WITH {} '.format(add1))
     print(' CONNECTED WITH {} '.format(add2))
-
 
     while flag:
         cls = c.recv(1024).decode()
